@@ -42,10 +42,9 @@ hardware: used <a href="https://shop.allnetchina.cn/collections/starfive/product
   <font color="#729FCF"><b>Distro:</b></font> Fedora release 33 (Rawhide) 
 </pre>
 
-complier software: gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)
-The GNU c compiler gcc was already installed in the operating system, which was provided by the manufacturer/supplier of SBC the on a flash drive. To compile, when in the directory of hello.s run the following at the command prompt: 
+complier software: gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1). The GNU c compiler gcc was already installed in the operating system, which was provided by the manufacturer/supplier of SBC the on a flash drive. 
 
-execution commands:
+Execution commands, with hello.s in the directory shown:
 
 <pre>[adingbatponder@fedora-starfive code]$ gcc hello.s -o hello
 [adingbatponder@fedora-starfive code]$ ./hello
