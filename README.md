@@ -1,6 +1,6 @@
 # risc-v_assembly_1
 risc-v assembly code outputting squares of integers by Bruce Hoult  
-hardware used <a href="https://shop.allnetchina.cn/collections/starfive/products/starfive-visionfive-ai-single-board-computer">visionfive V1 risc-v single board computer</a>
+hardware used <a href="https://shop.allnetchina.cn/collections/starfive/products/starfive-visionfive-ai-single-board-computer">visionfive V1 risc-v single board computer (SBC) (like a raspberry pi size)</a>
 
 
 <pre><font color="#729FCF"><b>System:</b></font>
@@ -8,7 +8,7 @@ hardware used <a href="https://shop.allnetchina.cn/collections/starfive/products
   <font color="#729FCF"><b>Distro:</b></font> Fedora release 33 (Rawhide) 
 </pre>
 
-gcc was already installed in the operating syste, which was provided by the manufacturer/supplier on a flash drive
+gcc was already installed in the operating syste, which was provided by the manufacturer/supplier of SBC the on a flash drive
 
 to compile 
 
