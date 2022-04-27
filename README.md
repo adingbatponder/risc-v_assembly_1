@@ -2,8 +2,8 @@
 Risc-v assembly code outputting squares of integers by Bruce Hoult  
 
 The code:
-<pre>[adingbatponder@fedora-starfive code]$ cat hello.s
-	.global main, printf
+
+<pre>	.global main, printf
 
 main:	addi sp,sp,-32
 	sd s1,16(sp)
@@ -34,7 +34,7 @@ sqmsg:	.asciz &quot;%d squared = %d\n&quot;
 
 
 
-hardware: used <a href="https://shop.allnetchina.cn/collections/starfive/products/starfive-visionfive-ai-single-board-computer">visionfive V1 risc-v single board computer (SBC) (like a raspberry pi size)</a>
+**hardware and operating system**: used <a href="https://shop.allnetchina.cn/collections/starfive/products/starfive-visionfive-ai-single-board-computer">visionfive V1 risc-v single board computer (SBC) (like a raspberry pi size)</a>
 
 
 <pre><font color="#729FCF"><b>System:</b></font>
@@ -42,15 +42,16 @@ hardware: used <a href="https://shop.allnetchina.cn/collections/starfive/product
   <font color="#729FCF"><b>Distro:</b></font> Fedora release 33 (Rawhide) 
 </pre>
 
-complier software: gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1). The GNU c compiler gcc was already installed in the operating system, which was provided by the manufacturer/supplier of SBC the on a flash drive. 
+**complier**: gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1). The GNU c compiler gcc was already installed in the operating system, which was provided by the manufacturer/supplier of SBC the on a flash drive. 
 
-Execution commands, with hello.s in the directory shown:
+**Execution commands**: , with hello.s in the directory shown:
 
 <pre>[adingbatponder@fedora-starfive code]$ gcc hello.s -o hello
 [adingbatponder@fedora-starfive code]$ ./hello
 </pre>
 
-Output to terminal screen:  
+**Output**: to terminal screen
+
 <pre>
 Hello asm!
 1 squared = 1
